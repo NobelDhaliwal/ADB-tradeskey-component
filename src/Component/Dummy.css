@@ -1,0 +1,26 @@
+
+
+  .pas {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  @keyframes slidein {
+     from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+      font-size: 130%;
+      margin-left: 25%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
