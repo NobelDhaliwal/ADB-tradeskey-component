@@ -35,9 +35,9 @@ const Dummy = () => {
       <th>View More</th>
       </tr>
   </thead>
-  <tbody className="pas" >
+  <tbody className="pas " >
  
-    <tr>
+    <tr >
     <td>  <ReactCountryFlag countryCode="IN"
    style={{
         fontSize: '2em',
@@ -47,7 +47,7 @@ const Dummy = () => {
  </td>
       <td>Work Gloves</td><td>08-Feb</td>
       </tr>
-      <tr>
+      <tr className="line">
       <td><ReactCountryFlag countryCode="US"
    style={{
         fontSize: '2em',
@@ -57,7 +57,7 @@ const Dummy = () => {
           <td>Purchaser Of Small nd Large Pools Of Notes</td>
           <td>08-Feb</td>
           </tr>
-    <tr>
+    <tr >
       <td><ReactCountryFlag countryCode="Ca"
    style={{
         fontSize: '2em',
@@ -67,7 +67,7 @@ const Dummy = () => {
       <td>Beans Peeling Machine</td>
       <td>08-Feb</td>
     </tr>
-    <tr>
+    <tr >
       <td><ReactCountryFlag countryCode="au"
    style={{
         fontSize: '2em',
@@ -77,7 +77,7 @@ const Dummy = () => {
       <td>Refined Corn Oil And Refined Sunflower Oil</td>
       <td>08-Feb</td>
     </tr>
-    <tr>
+    <tr >
     <td><ReactCountryFlag countryCode="cn"
    style={{
         fontSize: '2em',
@@ -87,7 +87,7 @@ const Dummy = () => {
     <td>Purchaser Of Small nd Large Pools Of Notes</td>
     <td>08-Feb</td>
     </tr>
-    <tr>
+    <tr >
     <td><ReactCountryFlag countryCode="gb"
    style={{
         fontSize: '2em',
@@ -97,7 +97,7 @@ const Dummy = () => {
       <td>Copy Paper</td>
       <td>08-Feb</td>
     </tr>
-    <tr>
+    <tr >
     <td><ReactCountryFlag countryCode="de"
    style={{
         fontSize: '2em',
@@ -121,7 +121,7 @@ const Dummy = () => {
       <th>View More</th>
       </tr>
   </thead>
-  <tbody className="pas" >
+  <tbody className="pas">
  
     <tr>
     <td>  <ReactCountryFlag countryCode="IN"
