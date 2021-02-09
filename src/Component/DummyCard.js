@@ -10,7 +10,7 @@ const DummyCard = (props) => {
 
       {/* First Card */}
       <Col lg={4} md={6} sm={12} style={{ marginBottom: "1.2rem" }}>
-        <Card border="primary" className="card_style mx-auto shadow  w-90 h-100 ">
+        <Card className="card_style mx-auto shadow  w-90 h-100 ">
           <Card.Img variant="top" src={props.imgsrc} className="card-img-top card_img img-fluid" />
           <Card.Body className="">
             <Card.Title>{props.title}</Card.Title>
